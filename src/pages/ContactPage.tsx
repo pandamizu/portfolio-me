@@ -3,8 +3,8 @@ import { Mail, Phone, Instagram, Twitter, Youtube, Link as LinkIcon, MessageSqua
 
 const ContactPage = () => {
   return (
-    <div className="min-h-screen pt-16">
-      <div className="relative h-[40vh] flex items-center main-gradient">
+    <div className="min-h-screen pt-12"> {/* Reduced from pt-16 to pt-12 */}
+      <div className="relative h-[60vh] flex items-center main-gradient">
         <div className="section-container text-white">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -19,7 +19,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="section-container py-20 -mt-16 bg-gray-900">
+      <div className="section-container py-20 -mt-2 bg-gray-900">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
